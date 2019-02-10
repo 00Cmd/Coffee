@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>TEST  | Home</title>
+    <body>
+        <p th:each="coffe : ${coffee}"
+        th:text="${coffe.name}">A Smoke Test</p>
+    </body>
+</head>
+</html>
